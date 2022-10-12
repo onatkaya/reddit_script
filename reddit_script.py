@@ -3,19 +3,16 @@
 
 # In[30]:
 
-
 from logging import exception
 import praw
 
-import config
+import config # the file where the client_id and client_secret is being contained (hidden with .gitignore file for security purposes).
 
 user_agent = "Scraper 1.0 by mrX"
 
 reddit = praw.Reddit(client_id = config.client_id, client_secret = config.client_secret, user_agent = user_agent)
 
-
 # In[31]:
-
 
 def most_frequent(List):
     counter = 0
@@ -36,9 +33,7 @@ def list_average(List):
 
 print("Welcome to the 'Reddit Script'! Type your subreddit of choice and see some interesting statistics about it! \n Important Note: Type 'quit_the_program' to terminate.\n")
 
-
 # In[40]:
-
 
 headlines_set = set()
 headlines_all = []
@@ -47,7 +42,6 @@ users_set = set()
 users_all = []
 
 scores_all = []
-
 
 user_input = input("Enter name of the subreddit: ")
 
@@ -67,8 +61,6 @@ while(user_input != "quit_the_program"):
 
             headlines_set.add(submission.title) # adding the titles to our set.
             headlines_all.append(submission.title)
-
-            #selftext_all.append(submission.selftext)
 
             users_set.add(submission.author)
             users_all.append(submission.author)
@@ -91,7 +83,6 @@ while(user_input != "quit_the_program"):
         print(e)
     user_input = input("\nEnter name of the subreddit: ")
     
-    #if(user_input == "quit_the_program"):
-        #print("Thanks for using the Reddit Script! Goodbye!")
+
 print("Thanks for using the Reddit Script! Goodbye!")
 
