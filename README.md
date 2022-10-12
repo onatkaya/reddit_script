@@ -9,7 +9,7 @@ Write your subreddit of choice as input, and you see some stats about that subre
 * The average upvote score for all posts
 * The user who has posted the most & The Number of total posts
 
-![Examplar Workflow of The Script](https://github.com/onatkaya/reddit_script/blob/main/screenshot1.PNG?raw=true) <br /> *Examplar Workflow of The Script*
+![Examplar Workflow of The Script](https://github.com/onatkaya/reddit_script/blob/master/screenshot1.PNG?raw=true) <br /> *Examplar Workflow of The Script*
 
 # Future plans
 
