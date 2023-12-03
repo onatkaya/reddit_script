@@ -3,7 +3,7 @@
 ## Downloading the Repository
 
 ```
-git clone [https://github.com/onatkaya/twitter_scraper.git](https://github.com/onatkaya/reddit_script.git)
+git clone https://github.com/onatkaya/reddit_script.git
 cd reddit_script
 ```
 
