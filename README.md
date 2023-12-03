@@ -23,7 +23,9 @@ Developed a script using the Reddit API and Python to retrieve information about
 
 ## Authentication Credentials
 
-The authentication credentials (`client_id` and `client_secret`) are hidden at the file `config.py`, and that file is not shared on here for privacy concerns. Please make a request to see it fully working with credentials. Otherwise, user has to add their own details.
+The authentication credentials (`client_id` and `client_secret`) are hidden at the file `config.py`, and that file is not shared on here for privacy concerns. 
+
+The user has to add their own credentials for the script to work fully.
 
 ## Future plans
 
