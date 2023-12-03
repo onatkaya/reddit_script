@@ -10,8 +10,8 @@ cd reddit_script
 ## Description
 Developed a script using the Reddit API and Python to retrieve information about a specific subreddit.
 
-**Write your subreddit of choice as input, and you see some stats about that subreddit as output:
-**
+**Write your subreddit of choice as input, and you see some stats about that subreddit as output:**
+
 * The number of all headlines
 * The number of all DISTINCT headlines
 * The number of DISTINCT users posted
